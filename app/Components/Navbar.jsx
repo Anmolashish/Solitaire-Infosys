@@ -38,7 +38,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center w-full absolute top-[40px]">
+      <div className="flex justify-between items-center w-full absolute top-[40px] z-20">
         <div className="flex justify-between items-center h-[90px] pl-[20px] ">
           <div className="flex h-full justify-center items-center">
             <img
@@ -53,37 +53,37 @@ export default function Navbar() {
           <div className="flex justify-between items-center h-[90px] gap-4 text-[clamp(0.75rem,1vw,1rem)]">
             <Link
               href={"/"}
-              className="flex h-full justify-center items-center text-gray-700 font-medium "
+              className="px-3 py-2 text-gray-700 font-medium hover:text-blue-600 "
             >
               HOME
             </Link>
             <Link
-              href={"/"}
-              className="flex h-full justify-center items-center text-gray-700 font-medium "
+              href={"/about-us"}
+              className="px-3 py-2 text-gray-700 font-medium hover:text-blue-600 "
             >
               CORPORATE
             </Link>
             <Link
               href={"/"}
-              className="flex h-full justify-center items-center text-gray-700 font-medium "
+              className="px-3 py-2 text-gray-700 font-medium hover:text-blue-600 "
             >
               OUR SERVICES
             </Link>
             <Link
               href={"/"}
-              className="flex h-full justify-center items-center text-gray-700 font-medium "
+              className="px-3 py-2 text-gray-700 font-medium hover:text-blue-600 "
             >
               BLOG
             </Link>
             <Link
               href={"/"}
-              className="flex h-full justify-center items-center text-gray-700 font-medium "
+              className="px-3 py-2 text-gray-700 font-medium hover:text-blue-600 "
             >
               CAREER
             </Link>
             <Link
-              href={"/"}
-              className="flex h-full justify-center items-center text-gray-700 font-medium "
+              href={"/contact"}
+              className="px-3 py-2 text-gray-700 font-medium hover:text-blue-600 "
             >
               CONTACT US
             </Link>

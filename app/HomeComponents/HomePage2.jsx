@@ -7,29 +7,23 @@ export default function HomePage2() {
       id: 1,
       image:
         "https://demos.codezeel.com/wordpress/WP02/WP032/default/wp-content/uploads/2024/09/02.jpg",
-      title: "Title 1",
-      description: "Description 1",
+      title: "Chandigarh",
+      description: "C-110, Industrial Area Phase-VII, Mohali, India",
     },
     {
       id: 2,
       image:
         "https://demos.codezeel.com/wordpress/WP02/WP032/default/wp-content/uploads/2024/09/03.jpg",
-      title: "Title 2",
-      description: "Description 2",
+      title: "Patiala",
+      description:
+        "SCO 8-9, FF, Factory Area, Near Hotel Flyover, Patiala (Pb) 147001",
     },
     {
       id: 3,
       image:
         "https://demos.codezeel.com/wordpress/WP02/WP032/default/wp-content/uploads/2024/09/04.jpg",
-      title: "Title 3",
-      description: "Description 3",
-    },
-    {
-      id: 4,
-      image:
-        "https://demos.codezeel.com/wordpress/WP02/WP032/default/wp-content/uploads/2024/09/05.jpg",
-      title: "Title 4",
-      description: "Description 4",
+      title: "Canada",
+      description: "Unit 97. 23238 TWP 522, Sherwood Park ABT8B1H5, Canada",
     },
   ];
 
@@ -75,9 +69,8 @@ export default function HomePage2() {
           <span className="text-blue-500 ">various countries</span>
         </div>
         <div className="text-sm font-light text-right w-[35%] max-md:w-full max-md:text-center">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iste
-          debitis aliquam est nostrum odio possimus, laborum, nulla deleniti
-          optio ea.
+          Expand the reach of your digital market by using the right and right
+          way. It will make your traffic go up and profit for your buisness
         </div>
       </div>
 

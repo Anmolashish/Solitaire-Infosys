@@ -7,11 +7,11 @@ export default function HomePage4() {
     <div className="w-full bg-[#f7fdff] py-16 px-4 min-h-screen">
       <div className="max-w-[1200px] mx-auto mt-10 my-auto">
         {/* Header Section */}
-        <div className="flex justify-between items-center flex-wrap">
-          <div className="text-5xl font-sans font-bold max-md:text-3xl flex flex-col">
+        <div className="flex justify-between items-center flex-wrap max-md:justify-center max-md:text-center gap-4">
+          <div className="text-5xl font-sans font-bold max-md:text-4xl flex flex-col">
             Products We have <span className="text-blue-500">Completed</span>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 max-md:flex-col">
             <button className="text-sm font-medium text-gray-600 hover:text-blue-500 transition">
               Know more about our products
             </button>
@@ -22,7 +22,7 @@ export default function HomePage4() {
         </div>
 
         {/* Project Cards */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-12 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             {
               img: "https://media.istockphoto.com/id/1411195926/photo/project-manager-working-on-laptop-and-updating-tasks-and-milestones-progress-planning-with.jpg?s=612x612&w=0&k=20&c=5A0CEsRbIrgnci0Q7LSxbrUZ1pliXy8C04ffpnjnVIw=",

@@ -58,20 +58,34 @@ export default function HomePage1() {
             {/* First Div */}
             <div className="w-[20%] flex-grow h-[90%] max-md:h-[50%] rounded-2xl min-w-[150px] flex flex-col justify-center transition-all duration-300 text-center max-sm:min-w-[120px]">
               <h1 className="text-5xl max-md:text-3xl font-bold font-sans">
-                12K+
+                6M+
               </h1>
-              <p className="text-sm font-sans">Satisfied Customers</p>
+              <p className="text-sm font-sans">Hours of training</p>
               <p className="text-sm max-md:text-xs font-light">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Accusamus qui aut
+                Dedicated to building skills, one hour at a time, with passion.
               </p>
             </div>
 
             {/* Other Divs */}
             {[
-              { number: "12K+", text: "Satisfied Customers" },
-              { number: "52K+", text: "Projects created" },
-              { number: "12+", text: "Years of experience" },
+              {
+                number: "12K+",
+                text: "Satisfied Customers",
+                description:
+                  "People who trusted our work and stayed with us through every step.",
+              },
+              {
+                number: "52K+",
+                text: "Projects created",
+                description:
+                  "From design to delivery, we’ve built stories that truly mattered.",
+              },
+              {
+                number: "12+",
+                text: "Years of experience",
+                description:
+                  "Over a decade of learning, building, and growing with passion.",
+              },
             ].map((item, index) => (
               <div
                 key={index}
@@ -82,8 +96,7 @@ export default function HomePage1() {
                 </h1>
                 <p className="text-sm font-sans">{item.text}</p>
                 <div className="text-sm max-md:text-xs font-light">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Accusamus qui aut
+                  {item.description}
                 </div>
               </div>
             ))}
